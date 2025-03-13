@@ -40,7 +40,8 @@ console.log(conc('5', '4'))
 const conc2 = (a:string, b:string):string => {
     // we are expecting return to be string too :)
     // return 3
-    return "3"
+    // return "3"
+    return a + b
 }
 
 console.log(conc2("Hello", "World"))
